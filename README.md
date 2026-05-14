@@ -12,8 +12,10 @@ Personal income allocation tool. Given a monthly income, it distributes funds ac
 ## Repository layout
 
 ```
-richman/          ← public repo (infrastructure, demo)
-└── private/      ← private submodule (personal notebook)
+richman/              ← public repo (infrastructure)
+├── private-demo/     ← demo notebook (mirrors submodule structure)
+│   └── demo.ipynb
+└── private/          ← private submodule (personal notebook)
     └── main.ipynb
 ```
 
@@ -26,8 +28,10 @@ git clone --recurse-submodules git@github.com:baturevychvitalii/richman.git
 ## Run the demo
 
 ```
-jupyter notebook demo.ipynb
+jupyter lab &
 ```
+
+Then open `private-demo/demo.ipynb`.
 
 ## Notebooks in a subdirectory
 
