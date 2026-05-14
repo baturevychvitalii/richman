@@ -1,6 +1,7 @@
 # richman
 
 Personal income allocation tool. Given a monthly income, it distributes funds across a hierarchy of accounts using named expense buckets containing fixed and percentage-based allocations.
+<img width="1340" height="46" alt="image" src="https://github.com/user-attachments/assets/cad7e1cb-eed0-4b83-88d9-fb43b677787d" />
 
 ## How it works
 
