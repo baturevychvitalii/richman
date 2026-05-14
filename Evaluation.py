@@ -1,4 +1,6 @@
-def compute_paylisp(income, expenseBuckets):
+def compute_paylisp(month, income, expenseBuckets):
+    print(f"Computing paylisp for {month}\n\n")
+    
     for name, bucket in expenseBuckets.items():
         bucket_spend = 0
         for expense in bucket:
